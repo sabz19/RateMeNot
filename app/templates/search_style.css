@@ -1,0 +1,24 @@
+
+.searchForm{
+	
+		width:500px;
+		margin:50px auto;
+}
+
+.searchClass{
+		padding:16px 30px;
+		position:relative;
+		left:500px;
+		top:300px;
+		background:rgba(50,50,50,0.2);
+		border:3px solid #dbdbdb;
+}
+
+
+.buttonClass{
+	
+		position:relative;
+		padding:16px 30px;
+		left:500px;
+		top:300px;
+}

@@ -1,15 +1,12 @@
-#Search Engine
 
 <!Doctype html>
 
 <head> Search </head>
 <body>
-	<form id= "searchform" action="{%url 'website search' %}" 
-	method = "get">
-	<button class ="searchButton" type="submit">
-	</button>
-	<input class="searchfield" id="SearchBox" name="q"
-	type="text" placeholder="Search"
+	<link rel="stylesheet" type="text/css" href="search_style.css">
+	<form id= "searchform" action="http://localhost:5000/results" method = "POST">
+		<p>Search Field<input type ="text" name = "Search"</p>
+		<p><input type = "submit" value = "submit"/></p>
 	</form>
 
 </body>
