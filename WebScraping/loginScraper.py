@@ -10,7 +10,7 @@ import os
 """
 	The login url is a redirect from the base url 
 """
-BASE_URL = "https://provost.utdallas.edu/ues-report/table/term_17f,heat_none"
+BASE_URL = ""
 
 LOGIN_PAGE = requests.get(BASE_URL)
 LOGIN_URL = LOGIN_PAGE.url
